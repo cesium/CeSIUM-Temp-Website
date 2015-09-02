@@ -51,6 +51,10 @@ body {
   align-items: flex-start;
 }
 
+.SocialBox div {
+  flex-shrink: 2;
+}
+
 .SocialBox a,
 .SocialBox a:hover,
 .SocialBox a:focus {
@@ -83,3 +87,14 @@ body {
   50% { border-color: white }
 }
 
+@media (max-width: 768px) {
+  body {
+    font-size: 25px;
+  }
+
+  .SocialBox a,
+  .SocialBox a:hover,
+  .SocialBox a:focus {
+    margin: 5px;
+  }
+}
