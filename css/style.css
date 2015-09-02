@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: #33364D;
+  color: #FAFAFA;
+  font-family: "Open sans Condensed", sans-serif;
+  font-size: 30px;
+}
+
+.Cesium {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.Cesium-container {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.MessageBox {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.Cesium-logo {
+  margin: 20px auto;
+  width: 400px;
+}
+
+.Cesium-logo path {
+  fill: #FAFAFA;
+}
+
+.MessageBox-typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .02em solid white;
+  -webkit-animation: type 1.3s steps(30, end),
+  blink-caret 1s 1.5s step-end infinite;
+  animation: type 1.3s steps(30, end),
+  blink-caret 1s 1.5s step-end infinite;
+}
+
+.SocialBox {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.SocialBox a,
+.SocialBox a:hover,
+.SocialBox a:focus {
+  color: #FAFAFA;
+  margin: 10px;
+}
+
+.SocialBox a:hover,
+.SocialBox a:focus {
+  color: #EB7956;
+}
+
+@-webkit-keyframes type {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@-moz-keyframes type {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
+
