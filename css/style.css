@@ -46,8 +46,11 @@ body {
 .SocialBox {
   margin-top: 20px;
   display: flex;
+  display: -webkit-flex;
   flex-direction: row;
+  -webkit-flex-direction: row;
   justify-content: center;
+  -webkit-justify-content: center;
   align-items: flex-start;
 }
 
